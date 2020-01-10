@@ -1,0 +1,157 @@
+body 
+{
+  
+    background-color: lightblue;
+    font-family: "Courier New", Courier, monospace;
+    border-color: black; 
+    
+}
+#click{
+    height: 50px;
+    width: 50px;
+    border: 5px solid cadetblue;
+    border-radius: 3px;
+    margin: 5px;
+    display: inline-block;
+    color: cadetblue;
+    font-size: 20px;
+    padding: 35px;
+    text-align: center;
+}
+.block{
+    display: inline-block;  
+}
+#block{
+    height: 65px;
+    width: 70px;
+    border: 5px solid cadetblue;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 10px;
+    color: cadetblue;
+    font-size: 20px;
+    padding: 35px;
+    text-align: center;
+    display: none;
+}
+
+  h1
+    {
+        font-family: "Courier New", Courier, monospace;
+        color: cadetblue;
+        text-shadow: 5px 5px 10px black;
+        font-style: italic;
+        margin-left: 300px;
+        font-size: 60px;
+        letter-spacing: 7px;
+        display: inline-block;
+        
+    }
+#boxes a {
+  position: absolute;
+  top: -80px;
+  transition: 0.5s;
+  height: 110px;
+  width:80px;
+  height: 100px; 
+  font-size: 20px;
+  color: cadetblue;
+  border-radius: 0 0 5px 5px;
+}
+
+#boxes a:hover {
+  top: 0;
+  background-color: papayawhip;
+}
+
+#html {
+  left: 1000px;
+  background-color: cadetblue;
+    padding-top: 35px;
+    
+    
+}
+
+#css {
+  left: 1100px;
+  background-color: cadetblue;
+    padding-top: 20px;
+     
+}
+
+#github {
+  left: 1200px;
+  background-color: cadetblue;
+    padding-top: 5px;
+    
+}
+
+
+div.personal{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    text-shadow: 0px 1px black;
+    border-radius: 10px;
+    margin-right: 900px;
+    
+
+}
+div.one
+{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    color: black;
+    border-radius: 10px;
+    margin-top: 5px;  
+    
+
+}
+div.box{
+    position: absolute;
+    width: 900px;
+    height: 145px;
+    border: 5pt solid cadetblue ;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-left: 65px;
+    display: inline-block;
+}
+#w1{
+    
+    color: cadetblue;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px cadetblue;
+    padding-top: 50px;
+    padding-left: 150px;
+    opacity: 0;
+    transition: 1s opacity;
+    
+    
+    
+}
+figure
+{
+    width: 125px;
+    height: 150px;
+    border: 5pt solid;
+    border-color: cadetblue;
+    position: relative;
+    right: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    
+}
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
